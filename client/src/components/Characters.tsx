@@ -1,6 +1,19 @@
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
  
 function Characters() {
+    const [backendData, setBackendData] = useState({ users: []})
+
+    useEffect(() => {
+        fetch("/api").then(
+            response => response.json()
+        ).then(
+            data => {
+                setBackendData(data)
+            }
+        )
+    }, [])
+
     const navigate = useNavigate();
  
     const goToAboutComponent = () => { 
@@ -30,6 +43,17 @@ function Characters() {
                     character creation
                 </button>
             </header>
+
+            <div>
+                <p>test data from backend</p>
+                {(typeof backendData.users === 'undefined') ? (
+                    <p>Loading...</p>
+                ): (
+                    backendData.users.map((user,i) => (
+                        <p key={i}>{user}</p>
+                    ))
+                )}
+            </div>
         </div>
     );
 }

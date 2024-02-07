@@ -1,12 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import Header from '../utilities/Header';
+import './Characters.css'
  
 function Characters() {
     const navigate = useNavigate();
- 
-    const goToAboutComponent = () => { 
-        navigate('/about'); 
-    };
     
     const goToSheetComponent = () => { 
         navigate('/sheet');
@@ -19,19 +16,17 @@ function Characters() {
     return (
         <div className="App">
             <Header/>
-            <header className="App-header">
-                <p>this is the main page where you view all your characters</p>
-
-                <button onClick={goToAboutComponent}>
-                    about page
-                </button>
+            <div className="text-center">
+                <h1 className="text-4xl font-pirata">My Characters</h1>
+                <p className="barlow-condensed">this is the main page where you view all your characters</p>
+                
                 <button onClick={goToSheetComponent}>
                     character sheet
                 </button>
                 <button onClick={goToCreateComponent}>
                     character creation
                 </button>
-            </header>
+            </div>
         </div>
     );
 }

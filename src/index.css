@@ -136,3 +136,105 @@
   font-weight: 100;
   font-style: italic;
 }
+
+.barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.barlow-condensed-extra-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+}
+
+.barlow-condensed-extra-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-extra-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+}
+
+.barlow-condensed-extra-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: medium;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: medium;
+  font-style: italic;
+}
+
+.barlow-condensed-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: italic;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+}
+
+.barlow-condensed-semi-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+}
+
+.barlow-condensed-semi-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}

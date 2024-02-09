@@ -3,10 +3,6 @@ import Header from '../utilities/Header';
  
 function Characters() {
     const navigate = useNavigate();
- 
-    const goToAboutComponent = () => { 
-        navigate('/about'); 
-    };
     
     const goToSheetComponent = () => { 
         navigate('/sheet');
@@ -19,19 +15,13 @@ function Characters() {
     return (
         <div className="App">
             <Header/>
-            <header className="App-header">
-                <p>this is the main page where you view all your characters</p>
-
-                <button onClick={goToAboutComponent}>
-                    about page
-                </button>
-                <button onClick={goToSheetComponent}>
-                    character sheet
-                </button>
-                <button onClick={goToCreateComponent}>
-                    character creation
-                </button>
-            </header>
+            <h1 className="text-5xl font-pirata">My Characters</h1>
+            <button onClick={goToSheetComponent}>
+                character sheet
+            </button>
+            <button onClick={goToCreateComponent}>
+                character creation
+            </button>
         </div>
     );
 }

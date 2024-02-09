@@ -23,7 +23,7 @@ export default function Header() {
       <a href="#" onClick={goToCharacters} className="text-4xl font-pirata p-2 hover:bg-yellow">Mausritter Character Sheet</a>
       <nav>
         <ul className="flex space-x-5">
-          <li><a href="#" onClick={goToCharacters} className="font-pirata underline p-2 hover:bg-yellow">My Characters</a></li>
+          <li><a href="#" onClick={goToCharacters} className="font-pirata underline p-2 hover:bg-yellow">Characters</a></li>
           <li><a href="#" onClick={goToAbout} className="font-pirata underline p-2 hover:bg-yellow">About</a></li>
           <li><a href="#" onClick={logOut} className="font-pirata underline p-2 hover:bg-yellow">Log Out</a></li>
         </ul>

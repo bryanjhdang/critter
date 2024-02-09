@@ -1,5 +1,19 @@
 import Header from '../utilities/Header';
-import AboutProfile from './AboutProfile';
+
+interface ProfileProps {
+  name: string;
+  imgSrc: string;
+  linkedin: string;
+}
+
+const Profile = ({name, imgSrc, linkedin}: ProfileProps) => (
+  <div>
+		<img src={imgSrc} alt={name}/>
+    <p className="text-xl underline font-barlow-condensed">
+			<a className="p-2 hover:bg-yellow" href={linkedin} target='blank'>{name}</a>
+		</p>
+  </div>
+);
 
 function About() {
 	return (
@@ -15,13 +29,11 @@ function About() {
 				{/* Profiles for Bryan and Josh */}
 				<div>
 					{/* Need to move this into a class */}
-					<AboutProfile/>
 					<p className="text-xl underline font-barlow-condensed">
 						<a className="p-2 hover:bg-yellow" href="https://www.linkedin.com/in/bryanjhdang" target='blank'>Bryan Dang</a>
 					</p>
 
 					{/* Need to move this into a class */}
-					<AboutProfile/>
 					<p className="text-xl underline font-barlow-condensed">
 						<a className="p-2 hover:bg-yellow" href="https://www.linkedin.com/in/joshuajli/" target='blank'>Joshua Li</a>
 					</p>

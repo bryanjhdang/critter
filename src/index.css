@@ -136,3 +136,111 @@
   font-weight: 100;
   font-style: italic;
 }
+
+.font-barlow-condensed-black {
+  font-family: "Barlow Condensed";
+  font-weight: black;
+  font-style: normal;
+}
+
+.font-barlow-condensed-blackitalic {
+  font-family: "Barlow Condensed";
+  font-weight: black;
+  font-style: italic;
+}
+
+.font-barlow-condensed-bold {
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-barlow-condensed-bolditalic {
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  font-style: italic;
+}
+
+.font-barlow-condensed-extrabold {
+  font-family: "Barlow Condensed";
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-barlow-condensed-extrabolditalic {
+  font-family: "Barlow Condensed";
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-barlow-condensed-extralight {
+  font-family: "Barlow Condensed";
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font-barlow-condensed-extralightitalic {
+  font-family: "Barlow Condensed";
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font-barlow-condensed-italic {
+  font-family: "Barlow Condensed";
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-barlow-condensed-light {
+  font-family: "Barlow Condensed";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-barlow-condensed-lightitalic {
+  font-family: "Barlow Condensed";
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-barlow-condensed-medium {
+  font-family: "Barlow Condensed";
+  font-weight: medium;
+  font-style: normal;
+}
+
+.font-barlow-condensed-mediumitalic {
+  font-family: "Barlow Condensed";
+  font-weight: medium;
+  font-style: italic;
+}
+
+.font-barlow-condensed {
+  font-family: "Barlow Condensed";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-barlow-condensed-semibold {
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-barlow-condensed-semibolditalic {
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-barlow-condensed-thin {
+  font-family: "Barlow Condensed";
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-barlow-condensed-thinitalic {
+  font-family: "Barlow Condensed";
+  font-weight: 100;
+  font-style: italic;
+}
